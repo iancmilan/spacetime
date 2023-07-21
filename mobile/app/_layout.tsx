@@ -51,13 +51,14 @@ export default function Layout() {
         screenOptions={{
           headerShown: false,
           contentStyle: { backgroundColor: 'transparent' },
+          animation: 'fade',
         }}
       >
         {/* name precisa ser o mesmo nome do arquivo */}
         {/* redirect vai redirecionar o usuário para a  próxima rota caso o valor de isUserAuthenticated seja true */}
         <Stack.Screen name="index" redirect={isUserAuthenticated} />
-        <Stack.Screen name="new" />
         <Stack.Screen name="memories" />
+        <Stack.Screen name="new" />
       </Stack>
     </ImageBackground>
   )
