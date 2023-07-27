@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Project Image](.github/spacetime.png)
-![web] ![server] ![mobile] ![top_language] ![repo-size] ![license]
+![web] ![server] ![mobile] ![top_language] ![repo-size]
 
 </div>
 
